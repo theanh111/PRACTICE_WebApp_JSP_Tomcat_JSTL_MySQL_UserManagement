@@ -15,4 +15,5 @@ public interface IUserDAO {
     boolean deleteUser(int id) throws SQLException;
 
     boolean updateUser(User user) throws SQLException;
+
 }
